@@ -132,7 +132,8 @@ public class Register extends Activity {
                                     }
                                     else {
                                         progressDialog.dismiss();
-                                        Toast.makeText( Register.this, "" + task.getException(), Toast.LENGTH_SHORT ).show();
+                                        // + task.getException(),
+                                        Toast.makeText( Register.this, "Failed To Register", Toast.LENGTH_SHORT ).show();
                                     }
                                 }
                             } );

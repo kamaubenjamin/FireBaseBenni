@@ -109,13 +109,14 @@ public class MainActivity extends AppCompatActivity {
                                startActivity( intent );
                            }
                            else{
+                               progressDialog.dismiss();
                                user.sendEmailVerification();
                                Toast.makeText( MainActivity.this, "Check Email to Verify", Toast.LENGTH_SHORT ).show();
                            }
                            }
                        else{
                            progressDialog.dismiss();
-                           Toast.makeText( MainActivity.this, "Failed To Login"+task.getException(), Toast.LENGTH_SHORT ).show();
+                           Toast.makeText( MainActivity.this, "Failed To Login", Toast.LENGTH_SHORT ).show();
                        }
                        }
                } );
