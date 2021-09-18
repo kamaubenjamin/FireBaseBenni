@@ -25,6 +25,8 @@
         android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
@@ -42,11 +44,14 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+
+        android:drawablePadding="20dp"
         android:ems="10"
+
+
         android:hint="Email Address"
         android:inputType="textPersonName"
-
-
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="24sp"

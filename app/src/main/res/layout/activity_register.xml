@@ -27,6 +27,8 @@
         android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
@@ -45,6 +47,8 @@
         android:id="@+id/full_names"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Full Names"
         android:inputType="textPersonName"
@@ -62,6 +66,8 @@
         android:id="@+id/age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Age"
         android:inputType="textPersonName"
@@ -79,11 +85,13 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:drawablePadding="20dp"
         android:ems="10"
+
+
         android:hint="Email Address"
         android:inputType="textPersonName"
-
-
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="24sp"
